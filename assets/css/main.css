@@ -20,11 +20,16 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #212529;
+  --default-color-rgb: 33, 37, 41;
   --heading-color: #111111; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #00014d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #1b3a98;
+  --accent-color-rgb: 232, 69, 69;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #ffffff;
+  --contrast-color-rgb: 255, 255, 255;
+  --base-color: #1b3a98;
+  --base-color-rgb: 27, 58, 152;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -712,7 +717,7 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  padding: 40px 0;
+  padding: 80px 0;
   text-align: center;
   background: #f8f9fa;
   border-bottom: 1px solid #eee;
@@ -729,6 +734,7 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-right: 10px;
 }
 
 .page-navigation a {
@@ -2713,4 +2719,70 @@ section,
   font-weight: 700;
   color: #333;
   margin: 0;
+}
+
+/* Automotive Section */
+.automotive .automotive-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: 0.3s;
+}
+
+.automotive .automotive-item:hover {
+  transform: translateY(-5px);
+}
+
+.automotive .automotive-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.automotive .automotive-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1b3a98;
+}
+
+.automotive .automotive-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Quality Assurance Section */
+.quality-assurance {
+  padding-top: 60px;
+}
+
+.quality-item {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.quality-item i {
+  font-size: 48px;
+  color: #1b3a98;
+  margin-bottom: 20px;
+}
+
+.quality-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1b3a98;
+}
+
+.quality-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 0;
 }

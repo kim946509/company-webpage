@@ -1,0 +1,203 @@
+/* Hero 섹션 */
+.introduce-hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  background-color: #f8f9fa;
+}
+
+.introduce-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduce-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 991px) {
+  .introduce-hero {
+    height: 350px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduce-hero {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .introduce-hero {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 제품 섹션 */
+.products {
+  padding: 60px 0;
+}
+
+.product-item {
+  background: #fff;
+  padding: 55px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 60px;
+  transition: 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+}
+
+.product-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1b3a98;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  margin-bottom: 20px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image img {
+  width: auto;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.parts-list h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.parts-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.parts-list li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.parts-list li:before {
+  content: "-";
+  color: #1b3a98;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 991px) {
+  .product-item {
+    padding: 15px;
+  }
+
+  .product-image img {
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products {
+    padding: 40px 0;
+  }
+
+  .product-item {
+    margin-bottom: 40px;
+  }
+
+  .product-item h3 {
+    font-size: 18px;
+  }
+
+  .product-image img {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-item {
+    padding: 12px;
+    margin-bottom: 30px;
+  }
+
+  .product-item h3 {
+    font-size: 16px;
+  }
+
+  .parts-list h4 {
+    font-size: 14px;
+  }
+
+  .parts-list li {
+    font-size: 13px;
+  }
+}
+
+/* 자동차 부품 섹션 */
+.automotive-parts {
+  padding: 40px 0 80px;
+}
+
+.automotive-parts .parts-image {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.automotive-parts .parts-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 반응형 스타일 */
+@media (max-width: 991px) {
+  .automotive-parts {
+    padding: 30px 0 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .automotive-parts {
+    padding: 20px 0 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .automotive-parts {
+    padding: 15px 0 30px;
+  }
+} 

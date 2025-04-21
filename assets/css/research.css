@@ -1074,9 +1074,6 @@
   word-break: keep-all;
 }
 
-.equipment-list .table td:first-child {
-  background-color: #f8f9fa;
-}
 
 .equipment-list .table tbody tr:nth-child(even) {
   background-color: #f8f9fa;
@@ -1188,6 +1185,8 @@
   padding: 15px;
   border: 1px solid #dee2e6;
 }
+
+
 
 .table-section .table th:first-child {
   width: 30%;

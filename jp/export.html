@@ -30,65 +30,7 @@
 
 <body>
   <!-- Header -->
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="../assets/img/logo.png" alt="">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">ホーム</a></li>
-          <li class="dropdown">
-            <a href="greeting.html"><span>会社概要</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="greeting.html">ご挨拶</a></li>
-              <li><a href="history.html">沿革</a></li>
-              <li><a href="clients.html">取引先</a></li>
-              <li><a href="location.html">所在地</a></li>
-              <li><a href="organization.html">組織図</a></li>
-              <li><a href="thailand.html">タイ法人</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="appliances.html"><span>MOLD金型</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="appliances.html">生活家電</a></li>
-              <li><a href="automotive.html">自動車</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="research-intro.html"><span>付属研究所</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="research-intro.html">付属研究所紹介</a></li>
-              <li><a href="technology.html">技術紹介</a></li>
-              <li><a href="facilities.html">設備状況</a></li>
-              <li><a href="patent.html">特許認証</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="video.html"><span>広報資料</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="video.html">広報資料</a></li>
-              <li><a href="export.html" class="active">海外輸出先</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="header-social-links">
-        <div class="language-selector">
-          <a href="../export.html">한국어</a>
-          <a href="../en/export.html">English</a>
-          <a href="#" class="active">日本語</a>
-          <a href="../ch/export.html">中文</a>
-        </div>
-      </div>
-
-    </div>
-  </header>
+  <site-header-jp></site-header-jp>
 
   <main id="main">
     <!-- Page Title & Navigation -->
@@ -159,15 +101,7 @@
   </main>
 
   <!-- Footer -->
-  <footer id="footer" class="footer dark-background">
-    <div class="container copyright text-center">
-      <p class="mb-2">ウリエムテック株式会社</p>
-      <p class="mb-2">京畿道華城市峰潭邑徳佑公団2路21-5 (郵便番号) 18336</p>
-      <p class="mb-2">21-5, Dukwoogongdan2-gil, Bongdam-eup Hwaseong-si, Gyeonggi-do KOREA 18336</p>
-      <p class="mb-2">TEL : 032-278-2088   FAX : 032-278-2085</p>
-      <p>Copyright© 2025 by WOORI M-Tech Co., Ltd. All rights reserved.</p>
-    </div>
-  </footer>
+  <site-footer-jp></site-footer-jp>
 
   <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -185,6 +119,10 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+
+  <!-- Components -->
+  <script src="../assets/js/components/header-jp.js"></script>
+  <script src="../assets/js/components/footer-jp.js"></script>
 
 </body>
 </html> 

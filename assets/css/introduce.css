@@ -255,7 +255,7 @@
 .history-item h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #4169E1;
+  color: #1b3a98;
   margin-bottom: 20px;
   position: relative;
 }
@@ -267,7 +267,7 @@
   bottom: -10px;
   width: 50px;
   height: 2px;
-  background-color: #4169E1;
+  background-color: #1b3a98;
 }
 
 .history-item ul {

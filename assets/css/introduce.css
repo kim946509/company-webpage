@@ -43,6 +43,11 @@
   width: 100%;
 }
 
+.page-navigation li {
+  width: 150px; /* 고정 너비 설정 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
 .page-navigation ul {
   list-style: none;
   padding: 0;
@@ -60,6 +65,7 @@
   padding: 5px 15px;
   white-space: nowrap;
   transition: all 0.3s ease;
+  display: block; 
 }
 
 .page-navigation a:hover,
@@ -161,6 +167,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 50px;
+  transform: skewX(-3deg);
 }
   
 .greeting h3 {

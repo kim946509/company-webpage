@@ -726,13 +726,14 @@ h6 {
   text-align: center;
   background: #f8f9fa;
   border-bottom: 1px solid #eee;
+  padding-bottom: 35px;
 }
 
 .page-title h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .page-navigation ul {
@@ -753,7 +754,7 @@ h6 {
 
 .page-navigation a:hover,
 .page-navigation a.active {
-  color: #0056b3;
+  color: #1b3a98;
 }
 
 /*--------------------------------------------------------------

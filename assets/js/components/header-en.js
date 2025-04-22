@@ -40,7 +40,7 @@ class HeaderEn extends HTMLElement {
               <li class="dropdown">
                 <a href="appliances.html"><span>MOLD</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="appliances.html">Home Appliances</a></li>
+                  <li><a href="appliances.html">Appliances</a></li>
                   <li><a href="automotive.html">Automotive</a></li>
                 </ul>
               </li>

@@ -30,65 +30,7 @@
 
 <body>
   <!-- Header -->
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="../assets/img/logo.png" alt="">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a href="greeting.html"><span>About Us</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="greeting.html">Greeting</a></li>
-              <li><a href="history.html">History</a></li>
-              <li><a href="clients.html">Clients</a></li>
-              <li><a href="location.html">Location</a></li>
-              <li><a href="organization.html">Organization</a></li>
-              <li><a href="thailand.html">Thailand Branch</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="appliances.html"><span>MOLD</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="appliances.html">Home Appliances</a></li>
-              <li><a href="automotive.html">Automotive</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="research-intro.html"><span>Research Institute</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="research-intro.html">Introduction</a></li>
-              <li><a href="technology.html">Technology</a></li>
-              <li><a href="facilities.html">Facilities</a></li>
-              <li><a href="patent.html" class="active">Patents</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="video.html"><span>Promotion</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="video.html">Promotional Materials</a></li>
-              <li><a href="export.html">Export Countries</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="header-social-links">
-        <div class="language-selector">
-          <a href="../patent.html">한국어</a>
-          <a href="#" class="active">English</a>
-          <a href="../jp/patent.html">日本語</a>
-          <a href="../ch/patent.html">中文</a>
-        </div>
-      </div>
-
-    </div>
-  </header>
+  <site-header-en></site-header-en>
 
   <main id="main">
     <!-- Page Title & Navigation -->
@@ -99,7 +41,6 @@
           <ul class="d-flex justify-content-center gap-4">
             <li><a href="research-intro.html">Introduction</a></li>
             <li><a href="technology.html">Technology</a></li>
-            <li><a href="facilities.html">Facilities</a></li>
             <li><a href="patent.html" class="active">Patents</a></li>
           </ul>
         </nav>
@@ -138,21 +79,25 @@
           <div class="col-md-6 col-lg-3" data-aos="fade-up">
             <div class="patent-item">
               <img src="../assets/img/patent/patent5.png" alt="Patent 5" class="img-fluid">
+              <h4 class="patent-title">ISO 9001</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="patent-item">
               <img src="../assets/img/patent/patent6.png" alt="Patent 6" class="img-fluid">
+              <h4 class="patent-title">ISO 14001</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <div class="patent-item">
               <img src="../assets/img/patent/patent7.png" alt="Patent 7" class="img-fluid">
+              <h4 class="patent-title">ISO 45001</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="patent-item">
               <img src="../assets/img/patent/patent8.png" alt="Patent 8" class="img-fluid">
+              <h4 class="patent-title">SQ CERTI</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up">
@@ -204,30 +149,6 @@
 
         <!-- Patent Tables Section -->
         <div class="patent-tables mt-5">
-          <!-- ISO Certifications -->
-          <div class="table-section mb-5">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>ISO9001 Certification</th>
-                  <th>2001.08.16</th>
-                </tr>
-                <tr>
-                  <th>ISO14001 Certification</th>
-                  <th>2005.07.28</th>
-                </tr>
-                <tr>
-                  <th>ISO45001 Certification</th>
-                  <th>2020.06.30</th>
-                </tr>
-                <tr>
-                  <th>SQ Certification</th>
-                  <th>2011.12.28</th>
-                </tr>
-              </thead>
-            </table>
-          </div>
-
           <!-- Company Certifications -->
           <div class="table-section mb-5">
             <table class="table">
@@ -243,10 +164,6 @@
                 <tr>
                   <th>Company Research Institute</th>
                   <th>2007.02.13</th>
-                </tr>
-                <tr>
-                  <th>Strong Small Business</th>
-                  <th>2014.01.01</th>
                 </tr>
               </thead>
             </table>
@@ -365,15 +282,7 @@
   </main>
 
   <!-- Footer -->
-  <footer id="footer" class="footer dark-background">
-    <div class="container copyright text-center">
-      <p class="mb-2">WOORI M-Tech Co., Ltd.</p>
-      <p class="mb-2">21-5, Dukwoogongdan2-gil, Bongdam-eup Hwaseong-si, Gyeonggi-do KOREA 18336</p>
-      <p class="mb-2">京畿道 華城市 峰潭邑 德佑公團2路 21-5(德佑里 185-2) 18336</p>
-      <p class="mb-2">TEL : 032-278-2088   FAX : 032-278-2085</p>
-      <p>Copyright© 2025 by WOORI M-Tech Co., Ltd. All rights reserved.</p>
-    </div>
-  </footer>
+  <site-footer-en></site-footer-en>
 
   <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -391,6 +300,10 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+
+  <!-- Components -->
+  <script src="../assets/js/components/header-en.js"></script>
+  <script src="../assets/js/components/footer-en.js"></script>
 
 </body>
 

@@ -30,65 +30,7 @@
 
 <body>
   <!-- Header -->
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="../assets/img/logo.png" alt="">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">ホーム</a></li>
-          <li class="dropdown">
-            <a href="greeting.html"><span>会社案内</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="greeting.html">ご挨拶</a></li>
-              <li><a href="history.html">沿革</a></li>
-              <li><a href="clients.html">取引先</a></li>
-              <li><a href="location.html">所在地</a></li>
-              <li><a href="organization.html">組織図</a></li>
-              <li><a href="thailand.html">タイ支社</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="appliances.html"><span>金型</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="appliances.html">家電製品</a></li>
-              <li><a href="automotive.html">自動車</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="research-intro.html"><span>研究所</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="research-intro.html">紹介</a></li>
-              <li><a href="technology.html">技術</a></li>
-              <li><a href="facilities.html">設備</a></li>
-              <li><a href="patent.html" class="active">特許</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="video.html"><span>広報</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="video.html">広報資料</a></li>
-              <li><a href="export.html">輸出国</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="header-social-links">
-        <div class="language-selector">
-          <a href="../patent.html">한국어</a>
-          <a href="../en/patent.html">English</a>
-          <a href="#" class="active">日本語</a>
-          <a href="../ch/patent.html">中文</a>
-        </div>
-      </div>
-
-    </div>
-  </header>
+  <site-header-jp></site-header-jp>
 
   <main id="main">
     <!-- Page Title & Navigation -->
@@ -96,11 +38,10 @@
       <div class="container">
         <h1>研究所</h1>
         <nav class="page-navigation">
-          <ul class="d-flex justify-content-center gap-4">
+          <ul class="d-flex justify-content-center gap-4" style="margin-right: 70px;">
             <li><a href="research-intro.html">紹介</a></li>
             <li><a href="technology.html">技術</a></li>
-            <li><a href="facilities.html">設備</a></li>
-            <li><a href="patent.html" class="active">特許</a></li>
+            <li><a href="patent.html" class="active">認証と特許</a></li>
           </ul>
         </nav>
       </div>
@@ -137,22 +78,26 @@
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up">
             <div class="patent-item">
-              <img src="../assets/img/patent/patent5.png" alt="特許 5" class="img-fluid">
+              <img src="../assets/img/patent/patent5.png" alt="ISO 9001" class="img-fluid">
+              <h4 class="patent-title">ISO 9001</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="patent-item">
-              <img src="../assets/img/patent/patent6.png" alt="特許 6" class="img-fluid">
+              <img src="../assets/img/patent/patent6.png" alt="ISO 14001" class="img-fluid">
+              <h4 class="patent-title">ISO 14001</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <div class="patent-item">
-              <img src="../assets/img/patent/patent7.png" alt="特許 7" class="img-fluid">
+              <img src="../assets/img/patent/patent7.png" alt="ISO 45001" class="img-fluid">
+              <h4 class="patent-title">ISO 45001</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="patent-item">
-              <img src="../assets/img/patent/patent8.png" alt="特許 8" class="img-fluid">
+              <img src="../assets/img/patent/patent8.png" alt="SQ認証" class="img-fluid">
+              <h4 class="patent-title">SQ認証</h4>
             </div>
           </div>
           <div class="col-md-6 col-lg-3" data-aos="fade-up">
@@ -243,10 +188,6 @@
                 <tr>
                   <th>企業付設研究所</th>
                   <th>2007.02.13</th>
-                </tr>
-                <tr>
-                  <th>強小企業</th>
-                  <th>2014.01.01</th>
                 </tr>
               </thead>
             </table>
@@ -365,16 +306,7 @@
   </main>
 
   <!-- Footer -->
-  <footer id="footer" class="footer dark-background">
-    <div class="container copyright text-center">
-      <p class="mb-2">WOORI M-Tech株式会社</p>
-      <p class="mb-2">21-5, Dukwoogongdan2-gil, Bongdam-eup Hwaseong-si, Gyeonggi-do KOREA 18336</p>
-      <p class="mb-2">京畿道 華城市 峰潭邑 德佑公團2路 21-5(德佑里 185-2) 18336</p>
-      <p class="mb-2">TEL : 032-278-2088   FAX : 032-278-2085</p>
-      <p>Copyright© 2025 by WOORI M-Tech Co., Ltd. All rights reserved.</p>
-    </div>
-  </footer>
-
+  <site-footer-jp></site-footer-jp>
   <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -391,6 +323,10 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
+
+  <!-- Components -->
+  <script src="../assets/js/components/header-jp.js"></script>
+  <script src="../assets/js/components/footer-jp.js"></script>
 
 </body>
 

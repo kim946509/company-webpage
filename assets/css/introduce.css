@@ -29,13 +29,14 @@
   text-align: center;
   background: #f8f9fa;
   border-bottom: 1px solid #eee;
+  padding-bottom: 35px;
 }
 
 .page-title h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .page-navigation {
@@ -240,8 +241,6 @@
 .history-images img {
   width: 80%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .history-content {

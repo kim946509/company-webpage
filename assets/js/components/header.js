@@ -4,6 +4,9 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
+    const currentPath = window.location.pathname;
+    const currentPage = currentPath.split('/').pop() || 'index.html';
+
     this.innerHTML = `
       <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container position-relative d-flex align-items-center">
@@ -58,15 +61,27 @@ class Header extends HTMLElement {
                 <i class="bi bi-chevron-down"></i>
               </a>
               <ul>
-                <li><a href="#"><img src="./assets/img/flags/kor.png" alt="한국어" class="flag-icon"> 한국어</a></li>
-                <li><a href="./en/index.html"><img src="./assets/img/flags/us.png" alt="English" class="flag-icon"> English</a></li>
-                <li><a href="./jp/index.html"><img src="./assets/img/flags/jp.png" alt="日本語" class="flag-icon"> 日本語</a></li>
+                <li><a href="#" data-lang="ko"><img src="./assets/img/flags/kor.png" alt="한국어" class="flag-icon"> 한국어</a></li>
+                <li><a href="#" data-lang="en"><img src="./assets/img/flags/us.png" alt="English" class="flag-icon"> English</a></li>
+                <li><a href="#" data-lang="jp"><img src="./assets/img/flags/jp.png" alt="日本語" class="flag-icon"> 日本語</a></li>
               </ul>
             </div>
           </div>
         </div>
       </header>
     `;
+
+    // 언어 선택 이벤트 핸들러 추가
+    this.querySelectorAll('.language-selector a[data-lang]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const lang = e.currentTarget.getAttribute('data-lang');
+        const newPath = lang === 'ko' 
+          ? `/${currentPage}`
+          : `/${lang}/${currentPage}`;
+        window.location.href = newPath;
+      });
+    });
   }
 }
 

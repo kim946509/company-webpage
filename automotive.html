@@ -33,64 +33,7 @@
 <body>
 
   <!-- Header -->
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo.png" alt="">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">메인</a></li>
-          <li class="dropdown">
-            <a href="greeting.html"><span>회사소개</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="greeting.html">인사말</a></li>
-              <li><a href="history.html">연혁</a></li>
-              <li><a href="clients.html">고객사</a></li>
-              <li><a href="location.html">위치</a></li>
-              <li><a href="organization.html">조직도</a></li>
-              <li><a href="thailand.html">태국 법인</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="appliances.html" class="active"><span>MOLD금형</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="appliances.html">생활가전</a></li>
-              <li><a href="automotive.html" class="active">자동차</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="research-intro.html"><span>부설연구소</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="research-intro.html">부설연구소 소개</a></li>
-              <li><a href="technology.html">기술소개</a></li>
-              <li><a href="facilities.html">설비현황</a></li>
-              <li><a href="patent.html">특허 인증</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="video.html"><span>홍보자료</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="video.html">홍보자료</a></li>
-              <li><a href="export.html">해외 수출국</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="header-social-links">
-        <div class="language-selector">
-          <a href="#">한국어</a>
-          <a href="./en/automotive.html" class="active">English</a>
-          <a href="./jp/automotive.html">日本語</a>
-          <a href="./ch/automotive.html">中文</a>
-        </div>
-      </div>
-    </div>
-  </header>
+  <site-header></site-header>
 
   <main id="main">
     <!-- Page Title & Navigation -->
@@ -114,7 +57,7 @@
     <!-- Title Section -->
     <div class="section-title">
       <div class="container">
-        <h2>자동차 (AutoMobile Parts)</h2>
+        <h2>자동차 (AUTOMOTIVE Parts)</h2>
       </div>
     </div>
 
@@ -131,16 +74,7 @@
   </main>
 
   <!-- Footer -->
-  <footer id="footer" class="footer dark-background">
-    <div class="container copyright text-center">
-      <p class="mb-2">(주) 우리엠텍</p>
-      <p class="mb-2">경기도 화성시 봉담읍 덕우공단2길 21-5 (우) 18336</p>
-      <p class="mb-2">21-5, Dukwoogongdan2-gil, Bongdam-eup Hwaseong-si, Gyeonggi-do KOREA 18336</p>
-      <p class="mb-2">京畿道 華城市 峰潭邑 德佑公團2路 21-5(德佑里 185-2) 18336</p>
-      <p class="mb-2">TEL : 032-278-2088   FAX : 032-278-2085</p>
-      <p>Copyright© 2025 by WOORI M-Tech Co., Ltd. All rights reserved.</p>
-    </div>
-  </footer>
+  <site-footer></site-footer>
 
   <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -158,6 +92,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Components -->
+  <script src="assets/js/components/header.js"></script>
+  <script src="assets/js/components/footer.js"></script>
 
 </body>
 

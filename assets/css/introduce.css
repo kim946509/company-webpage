@@ -350,13 +350,10 @@
   height: auto;
   max-height: 600px;
   object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .location .location-info {
   padding: 40px;
-  background-color: rgba(var(--default-color-rgb), 0.05);
   border-radius: 10px;
   height: 100%;
 }

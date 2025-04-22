@@ -75,7 +75,6 @@
 .section-title h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #1b3a98;
   position: relative;
   margin-bottom: 36px;
   padding-bottom: 20px;
@@ -173,13 +172,12 @@
 .software-images img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 /* 3D 프로그램 섹션 스타일 */
 .program-section {
   padding: 60px 0;
+  background-color: #f8f8f8;
 }
 
 .program-features {
@@ -253,7 +251,6 @@
 /* CAE 사출성형해석 섹션 스타일 */
 .cae-section {
   padding: 80px 0;
-  background-color: #f8f8f8;
 }
 
 .cae-text {

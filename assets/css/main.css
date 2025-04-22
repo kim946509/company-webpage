@@ -784,6 +784,8 @@ section,
   text-align: center;
   padding-bottom: 60px;
   position: relative;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .section-title h2 {

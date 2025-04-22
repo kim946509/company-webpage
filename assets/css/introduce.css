@@ -123,11 +123,23 @@
   padding: 80px 0;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .greeting .company-title {
   color: var(--base-color);
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 50px;
+  animation: fadeInUp 0.8s ease-out forwards;
 }
 
 .greeting-content {
@@ -140,6 +152,8 @@
   font-weight: 700;
   color: var(--base-color);
   margin-bottom: 20px;
+  animation: fadeInUp 0.8s ease-out 0.2s forwards;
+  opacity: 0;
 }
 
 .greeting .company-strategy {
@@ -154,6 +168,8 @@
   font-weight: 500;
   color: #666;
   margin-bottom: 30px;
+  animation: fadeInUp 0.8s ease-out 0.4s forwards;
+  opacity: 0;
 }
 
 .greeting p {
@@ -161,16 +177,21 @@
   line-height: 1.8;
   color: #666;
   margin-bottom: 20px;
+  animation: fadeInUp 0.8s ease-out 0.6s forwards;
+  opacity: 0;
 }
 
 .greeting .ceo-sign {
   text-align: right;
   margin-top: 50px;
+  animation: fadeInUp 0.8s ease-out 0.8s forwards;
+  opacity: 0;
 }
 
 .greeting .ceo-sign p {
   font-size: 1rem;
   margin-bottom: 5px;
+  animation: none;
 }
 
 .greeting .ceo-sign h3 {
@@ -178,11 +199,14 @@
   font-weight: 700;
   color: #333;
   margin: 0;
+  animation: none;
 }
 
 .business-strategy {
   max-width: 800px;
   margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out 1s forwards;
+  opacity: 0;
 }
 
 .business-strategy img {
@@ -241,6 +265,17 @@
 .history-images img {
   width: 80%;
   height: auto;
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.history-images .text-center {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.history-images .text-center:nth-child(2) {
+  animation-delay: 0.2s;
 }
 
 .history-content {
@@ -250,6 +285,24 @@
 .history-item {
   margin-bottom: 40px;
   position: relative;
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.history-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.history-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.history-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.history-item:nth-child(4) {
+  animation-delay: 0.8s;
 }
 
 .history-item h2 {

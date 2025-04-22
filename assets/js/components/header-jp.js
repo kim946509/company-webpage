@@ -6,6 +6,15 @@ class HeaderJp extends HTMLElement {
   connectedCallback() {
     const currentPath = window.location.pathname;
     const currentPage = currentPath.split('/').pop() || 'index.html';
+    // 호스팅 환경에 따른 baseUrl 동적 설정
+    let baseUrl = '';
+    if (window.location.hostname === 'kim946509.github.io') {
+        baseUrl = '/company-webpage';
+    }
+    // Cafe24 호스팅을 위한 설정은 나중에 추가 가능
+    // else if (window.location.hostname === 'your-cafe24-domain.com') {
+    //   baseUrl = '';
+    // }
 
     this.innerHTML = `
       <header id="header" class="header d-flex align-items-center sticky-top">
@@ -77,8 +86,8 @@ class HeaderJp extends HTMLElement {
         e.preventDefault();
         const lang = e.currentTarget.getAttribute('data-lang');
         const newPath = lang === 'ko' 
-          ? `/${currentPage}`
-          : `/${lang}/${currentPage}`;
+          ? `${baseUrl}/${currentPage}`
+          : `${baseUrl}/${lang}/${currentPage}`;
         window.location.href = newPath;
       });
     });

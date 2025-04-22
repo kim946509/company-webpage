@@ -29,13 +29,14 @@
   text-align: center;
   background: #f8f9fa;
   border-bottom: 1px solid #eee;
+  padding-bottom: 35px;
 }
 
 .page-title h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .page-navigation {
@@ -194,7 +195,7 @@
   position: relative;
   padding-left: 20px;
   margin-bottom: 15px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #1b3a98;
 }
 
@@ -281,7 +282,7 @@
 }
 
 .cae-analysis-list li {
-  font-size: 18px;
+  font-size: 1.2rem;
   color: #555;
   border-radius: 25px;
   margin-bottom: 10px;
@@ -461,7 +462,7 @@
 }
 
 .core-system .system-content p {
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #666;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -645,14 +646,15 @@
 .tech-item {
   width: calc(33.333% - 14px);
   padding: 30px;
-  border-radius: 15px;
   transition: transform 0.3s ease;
+  border: 1px solid #fff;
+  background-color: #fff;
 }
 
 .tech-item:hover {
-  transform: translateX(10px);
+  transform: translateY(-10px);
 }
-
+/* 
 .tech-item.item-1 {
   background-color: #f8e6e6;
 }
@@ -675,7 +677,7 @@
 
 .tech-item.item-6 {
   background-color: #f8ece6;
-}
+} */
 
 .tech-item h3 {
   font-size: 18px;
@@ -800,7 +802,7 @@
 }
 
 .injection-tech .tech-description p {
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: 1.8;
   color: #333;
   margin: 0;
@@ -838,7 +840,7 @@
   }
 
   .injection-tech .tech-description p {
-    font-size: 15px;
+    font-size: 1.2rem;
   }
 
   .injection-tech .tech-image {
@@ -856,7 +858,7 @@
   }
 
   .injection-tech .tech-label {
-    font-size: 14px;
+    font-size: 1.2rem;
   }
 
   .injection-tech .tech-description {
@@ -865,7 +867,7 @@
   }
 
   .injection-tech .tech-description p {
-    font-size: 14px;
+    font-size: 1.2rem;
   }
 
   .injection-tech .tech-image {
@@ -886,7 +888,7 @@
 }
 
 #ntm-tech .tech-description p {
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: 1.8;
   color: #333;
   margin: 0;

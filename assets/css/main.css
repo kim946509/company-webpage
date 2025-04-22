@@ -303,9 +303,10 @@ h6 {
 
   .navmenu .dropdown ul a {
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: none;
     color: var(--nav-dropdown-color);
+    font-weight: 400;
   }
 
   .navmenu .dropdown ul a i {
@@ -462,6 +463,10 @@ h6 {
 
   .mobile-nav-active .navmenu>ul {
     display: block;
+  }
+
+  .navmenu .dropdown ul a {
+    font-weight: 100;
   }
 }
 

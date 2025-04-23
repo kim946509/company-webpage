@@ -880,7 +880,6 @@ section,
 
 .hero .hero-text p {
   font-size: 1.4rem;
-  font-style: italic;
   transform: skewX(-1deg);
   letter-spacing: 2px;
 }

@@ -172,7 +172,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 50px;
   margin-right: 8px;
 }
 
@@ -254,7 +254,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
-    font-size: 13px;
+    font-size: 1.2rem;
     font-family: var(--nav-font);
     text-transform: uppercase;
     font-weight: 600;
@@ -2721,7 +2721,7 @@ section,
 .language-selector a.nav-link {
   color: var(--nav-color);
   padding: 18px 15px;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-family: var(--nav-font);
   text-transform: uppercase;
   font-weight: 600;

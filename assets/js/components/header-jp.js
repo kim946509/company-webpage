@@ -20,7 +20,7 @@ class HeaderJp extends HTMLElement {
       <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container position-relative d-flex align-items-center">
           <a href="index.html" class="logo d-flex align-items-center me-auto">
-            <img src="../assets/img/logo.jpg" alt="">
+            <img src="../assets/img/logo-en.jpg" alt="">
           </a>
 
           <nav id="navmenu" class="navmenu">

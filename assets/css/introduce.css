@@ -167,7 +167,6 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 50px;
-  transform: skewX(-3deg);
 }
   
 .greeting h3 {
@@ -521,7 +520,6 @@
   padding: 20px;
   background: #fff;
   border-radius: 10px;
-  margin-left: 52px;
 }
 
 .organization-chart img {

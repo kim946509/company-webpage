@@ -476,7 +476,7 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-size: 9px;
+  font-size: 0.4rem;
   position: relative;
 }
 
@@ -858,7 +858,7 @@ section,
 }
 
 .hero .carousel.carousel-fade .carousel-item {
-  transition: opacity 2.5s ease-in-out;
+  transition: opacity 2s ease-in-out;
 }
 
 .hero .hero-text {
@@ -879,7 +879,7 @@ section,
 }
 
 .hero .hero-text p {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   font-style: italic;
   transform: skewX(-1deg);
   letter-spacing: 2px;

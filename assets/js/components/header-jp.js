@@ -53,9 +53,9 @@ class HeaderJp extends HTMLElement {
               </li>
               <li><a href="facilities.html">設備現況</a></li>
               <li class="dropdown">
-                <a href="video.html"><span>PR資料</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <a href="video.html"><span>広報資料</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="video.html">PR資料</a></li>
+                  <li><a href="video.html">広報資料</a></li>
                   <li><a href="export.html">輸出国</a></li>
                 </ul>
               </li>

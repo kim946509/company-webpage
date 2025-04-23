@@ -44,7 +44,7 @@
 }
 
 .page-navigation li {
-  width: 150px; /* 고정 너비 설정 */
+  width: 140px; /* 고정 너비 설정 */
   text-align: center; /* 텍스트 중앙 정렬 */
 }
 

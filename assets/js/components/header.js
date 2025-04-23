@@ -29,12 +29,12 @@ class Header extends HTMLElement {
               <li class="dropdown">
                 <a href="greeting.html"><span>회사소개</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="greeting.html">인사말</a></li>
-                  <li><a href="history.html">연혁</a></li>
-                  <li><a href="clients.html">고객사</a></li>
-                  <li><a href="location.html">위치</a></li>
-                  <li><a href="organization.html">조직도</a></li>
-                  <li><a href="thailand.html">태국 법인</a></li>
+                  <li><a href="greeting">인사말</a></li>
+                  <li><a href="history">연혁</a></li>
+                  <li><a href="clients">고객사</a></li>
+                  <li><a href="location">위치</a></li>
+                  <li><a href="organization">조직도</a></li>
+                  <li><a href="thailand">태국 법인</a></li>
                 </ul>
               </li>
               <li class="dropdown">

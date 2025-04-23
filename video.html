@@ -63,76 +63,16 @@
           <h2>홍보영상</h2>
         </div>
         <div class="video-container">
-          <div class="youtube-container" id="youtube-player">
-            <div class="youtube-thumbnail" onclick="loadYoutubeVideo()">
-              <img src="https://img.youtube.com/vi/UsCW3G7lDrQ/maxresdefault.jpg" alt="우리엠텍 홍보영상 썸네일">
-              <div class="play-button">
-                <i class="bi bi-play-circle-fill"></i>
-              </div>
-            </div>
-            <div id="youtube-iframe-container"></div>
-          </div>
+          <iframe src="https://www.youtube.com/embed/UsCW3G7lDrQ?autoplay=1&mute=1&loop=1&playlist=UsCW3G7lDrQ" 
+                  title="우리엠텍 홍보영상" 
+                  frameborder="0" 
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
-
-    <script>
-      function loadYoutubeVideo() {
-        const iframe = document.createElement('iframe');
-        iframe.src = "https://www.youtube.com/embed/UsCW3G7lDrQ?autoplay=1&mute=1&loop=1&playlist=UsCW3G7lDrQ";
-        iframe.title = "우리엠텍 홍보영상";
-        iframe.frameBorder = "0";
-        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-        iframe.allowFullscreen = true;
-        
-        document.getElementById('youtube-iframe-container').appendChild(iframe);
-        document.querySelector('.youtube-thumbnail').style.display = 'none';
-      }
-    </script>
-
-    <style>
-      .youtube-container {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-      }
-      .youtube-thumbnail {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-      }
-      .youtube-thumbnail img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .play-button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 4rem;
-        color: white;
-        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-      }
-      #youtube-iframe-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-      #youtube-iframe-container iframe {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-    </style>
 
     <!-- Brochure Section -->
     <section class="brochure-section">
@@ -179,12 +119,14 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
   <!-- Components -->
   <script src="assets/js/components/header.js"></script>
   <script src="assets/js/components/footer.js"></script>
+
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

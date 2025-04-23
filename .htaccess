@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# 요청된 파일이 실제 디렉토리가 아니고
+# 요청된 파일에 .html을 추가한 파일이 존재하면
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# 요청된 파일이 실제 파일이나 디렉토리가 아니고
+# 요청된 URI에 확장자나 슬래시가 없으면 슬래시를 추가
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule (.*)$ /$1/ [R=301,L]

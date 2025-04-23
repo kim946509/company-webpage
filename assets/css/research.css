@@ -469,13 +469,13 @@
 .core-system .system-image {
   flex: 0 0 30%;
   max-width: 30%;
+  text-align: center;
 }
 
 .core-system .system-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  height: 140px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .core-system .system-content {

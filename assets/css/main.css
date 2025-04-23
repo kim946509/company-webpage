@@ -305,7 +305,7 @@ h6 {
 
   .navmenu .dropdown ul a {
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 1rem;
     text-transform: none;
     color: var(--nav-dropdown-color);
     font-weight: 400;
@@ -478,7 +478,7 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-size: 0.4rem;
+  font-size: 0.6rem;
   position: relative;
 }
 
@@ -791,8 +791,8 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
   position: relative;
+  padding-top: 60px;
   font-weight: 500;
   font-size: 1.2rem;
 }

@@ -172,13 +172,13 @@
 }
 
 .automotive-parts .parts-image {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 .automotive-parts .parts-image img {
   width: 100%;
-  height: auto;
+  height: 900px;
 }
 
 /* 반응형 스타일 */
@@ -186,16 +186,25 @@
   .automotive-parts {
     padding: 30px 0 60px;
   }
+  .automotive-parts .parts-image img {
+    height:auto;
+  }
 }
 
 @media (max-width: 768px) {
   .automotive-parts {
     padding: 20px 0 40px;
   }
+  .automotive-parts .parts-image img{
+    height:auto;
+  }
 }
 
 @media (max-width: 576px) {
   .automotive-parts {
     padding: 15px 0 30px;
+  }
+  .automotive-parts .parts-image img {
+    height:auto;
   }
 } 

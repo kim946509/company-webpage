@@ -998,7 +998,6 @@
 
 .equipment-item {
   background: #fff;
-  border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
 }

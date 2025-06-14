@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 한국어 페이지 -->
+  <url>
+    <loc>http://www.woorimold.co.kr/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>http://www.woorimold.co.kr/greeting.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/history.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/clients.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/location.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/organization.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/thailand.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/appliances.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/automotive.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/research-intro.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/technology.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/patent.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/facilities.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/video.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/export.html</loc></url>
+
+  <!-- 영어 페이지 -->
+  <url><loc>http://www.woorimold.co.kr/en/index.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/greeting.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/history.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/clients.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/location.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/organization.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/thailand.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/appliances.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/automotive.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/research-intro.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/technology.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/patent.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/facilities.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/video.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/en/export.html</loc></url>
+
+  <!-- 일본어 페이지 -->
+  <url><loc>http://www.woorimold.co.kr/jp/index.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/greeting.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/history.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/clients.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/location.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/organization.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/thailand.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/appliances.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/automotive.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/research-intro.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/technology.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/patent.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/facilities.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/video.html</loc></url>
+  <url><loc>http://www.woorimold.co.kr/jp/export.html</loc></url>
+
+</urlset>

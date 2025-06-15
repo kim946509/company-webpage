@@ -74,27 +74,29 @@
 }
 
 .product-image {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 300px;
 }
 
 .product-image img {
   width: auto;
-  height: auto;
-  max-height: 250px;
+  height: 100%;
+  max-width: 100%;
   object-fit: contain;
   border-radius: 8px;
 }
 
-.parts-list h4 {
+.parts-list {
   font-size: 16px;
   font-weight: 600;
   color: #333;
   margin-bottom: 10px;
+  flex-grow: 1;
 }
 
 .parts-list ul {
@@ -124,8 +126,8 @@
     padding: 15px;
   }
 
-  .product-image img {
-    max-height: 220px;
+  .product-image {
+    height: 220px;
   }
 }
 
@@ -142,8 +144,8 @@
     font-size: 18px;
   }
 
-  .product-image img {
-    max-height: 200px;
+  .product-image {
+    height: 200px;
   }
 }
 
